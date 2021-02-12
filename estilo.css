@@ -14,7 +14,8 @@ body {
 	padding-bottom: 2px;
 	text-align: center;
     margin-left: 20%;
-    color: white;
+	color: white;
+	margin-top: 5px;
   }
 
   .subt{
@@ -104,7 +105,7 @@ body {
 	 background-color: rgba(30, 30, 48, 0.945);
 	 text-align: center;
 	 margin-left: 45%;
-	 margin-top: 800px;
+	 margin-top: 400px;
 	 margin-bottom: 60px;
 	 box-shadow: 7px 7px 10px rgb(29, 26, 26);
  }
@@ -194,4 +195,52 @@ body {
 	    font-family: 'Sunflower', sans-serif;
 		text-align: center;
 		margin-left:290px;
+	}
+
+
+	#tecno{
+		display: flex;
+		flex-wrap: wrap;
+		margin-top:10px;
+		margin-left: 500px;
+		width: 600px;
+		height: 400px;
+		justify-content: center;
+	}
+
+	#tecno div{
+		margin-top: 30px;
+		width: 200px;
+		height: 200px;
+	}
+
+	.div1{
+		background-size: cover;
+		background-image: url("\HTML5logo.png");
+	}
+
+	.div2{
+		background-size: cover;
+		background-image: url(csslogo.png)
+	}
+
+	.div3{
+		background-size: cover;
+       background-image: url(js.png);
+	}
+
+	.div4{
+		background-size: cover;
+       background-image: url(jQuery-logo.png);
+	}
+	.div5{
+	 background-size: cover;
+       background-image: url(reactjslogo.png);
+	}
+
+	.cabe1{
+		margin-top: 300px;
+		margin-left: 650px;
+		display:flex;
+		flex-wrap: wrap;
 	}
