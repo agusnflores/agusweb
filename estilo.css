@@ -38,6 +38,7 @@ body {
 	z-index: 1; 
 	top: 0; 
 	left: 0;
+	box-shadow: 4px 4px 8px rgb(26, 25, 25);
   }
   
 .nav {
