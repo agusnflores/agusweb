@@ -1,30 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&display=swap');
 
 body {
-    font-family: 'Sunflower', sans-serif;
 	font-size: 16px;
 	background: #2a1b50;
   }
 
   .titulo{
-	font-family: 'Sunflower', sans-serif;
-	font-size: 60px;
+	font-family: 'Advent Pro', sans-serif;
+	font-style: Bold 700 italic;
+	font-size: 50px;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	padding-bottom: 2px;
 	text-align: center;
     margin-left: 20%;
-	color: white;
-	margin-top: 5px;
+	color: rgb(209, 197, 197);
+	margin-top: 20px;
   }
 
   .subt{
-	font-family: 'Sunflower', sans-serif;
+	font-family: 'Advent Pro', sans-serif;
 	font-size: 30px;
     letter-spacing: 4px;
 	  text-align: center;
 	  margin-left: 18%;
-	  color: white;
+	  color: rgb(224, 208, 208);
 	  margin-bottom: 60px;
   }
   
@@ -43,7 +44,7 @@ body {
 	position: relative;
 	margin: 0 15%;
 	text-align: right;
-	top: 50%;
+	top: 40%;
 	transform: translateY(-50%);
 	font-weight: bold;
   }
@@ -56,6 +57,7 @@ body {
 	  margin: 3.2em 0;
 	}
 .nav ul li a {
+		font-family: sans-serif;
 		line-height: 4em;
 		text-transform: uppercase;
 		text-decoration: none;
@@ -68,6 +70,10 @@ body {
 
 	  .nav ul li a:hover{
 		  color:white;
+	  }
+
+	  .nav ul li a:active{
+		  color: red;
 	  }
 	  
 
@@ -85,12 +91,12 @@ body {
  .bio{
 	 display: flex;
 	 text-align: center;
-	 margin-left: 42%;
+	 margin-left: 45%;
  }
 
  .bio p{
-	font-family: 'Sunflower', sans-serif;
-	 color: white;
+	font-family: 'Advent Pro', sans-serif;
+	 color: rgb(228, 215, 215);
  }
 
  #proyectos{
@@ -101,11 +107,11 @@ body {
 
  #contacto{
 	 width:30%;
-	 height: 500px;
+	 height: 470px;
 	 background-color: rgba(30, 30, 48, 0.945);
 	 text-align: center;
 	 margin-left: 45%;
-	 margin-top: 400px;
+	 margin-top: 300px;
 	 margin-bottom: 60px;
 	 box-shadow: 7px 7px 10px rgb(29, 26, 26);
  }
@@ -198,7 +204,7 @@ body {
 	}
 
 
-	#tecno{
+	.tcn{
 		display: flex;
 		flex-wrap: wrap;
 		margin-top:10px;
@@ -208,7 +214,7 @@ body {
 		justify-content: center;
 	}
 
-	#tecno div{
+	.tcn div{
 		margin-top: 30px;
 		width: 200px;
 		height: 200px;
@@ -243,4 +249,46 @@ body {
 		margin-left: 650px;
 		display:flex;
 		flex-wrap: wrap;
+	}
+
+	.redes{
+		top: 35%;
+		font-size: 1.5rem;
+		display:flex;
+		flex-wrap: wrap;
+		list-style:none;
+		padding: 16px
+	}
+
+	.icon{
+     padding:8px;
+     color:white;
+	}
+   
+
+	#tecno{
+		display:flex;
+		flex-wrap: wrap;
+		margin-left: 600px;
+		margin-top: 200px;
+	}
+
+	#tecno li{
+		margin-right: 140px;
+		list-style:none;
+		color:white;
+		margin-top: 50px;
+	}
+
+	.tcn2{
+		display:flex;
+		flex-wrap: wrap;
+		margin-left: 680px;
+	}
+
+	.tcn2 li{
+		margin-right: 150px;
+		list-style:none;
+		color:white;
+		margin-top: 80px;
 	}
