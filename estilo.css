@@ -123,12 +123,6 @@ body {
     box-shadow: 5px 5px 8px rgb(29, 26, 26);
 }
 
-.fm {
-    padding: 3px;
-    color: white;
-    font-size: 10px;
-}
-
 .cajatxt {
     border-radius: 15px;
     margin-top: 4px;
@@ -355,8 +349,7 @@ footer {
         font-size: 3.125em;
         text-transform: uppercase;
         text-align: center;
-        color: rgb(238, 224, 224);
-        margin-top: 5%;
+        color: rgb(228, 217, 217);
     }
     .subt {
         font-family: Arial;
@@ -373,16 +366,16 @@ footer {
         z-index: 1;
         top: 0;
         left: 0;
-        box-shadow: 4px 4px 8px rgb(26, 25, 25);
     }
     .nav {
+        width: 10%;
         text-align: center;
     }
     .nav ul {
         list-style: none;
     }
     .nav ul li {
-        position: relative;
+        text-align: center;
         margin: 3.2em 0;
     }
     .nav ul li a {
@@ -392,5 +385,107 @@ footer {
         letter-spacing: 0.4em;
         transition: all ease-out 300ms;
         color: rgb(234, 226, 238);
+    }
+    .img2 {
+        width: 40%;
+        display: block;
+        border-radius: 10em;
+        border: 3px solid rgb(228, 212, 212);
+    }
+    .bio {
+        text-align: center;
+    }
+    .bio p {
+        font-family: 'Advent Pro', sans-serif;
+        color: rgb(241, 231, 231);
+    }
+    #contacto {
+        border-radius: 0px 10px 10px 0px;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(27, 46, 71, 0.966);
+        text-align: center;
+    }
+    .cajatxt {
+        border-radius: 0.93em;
+        margin-top: 0.25em;
+        padding: 0.125em;
+    }
+    .cajatxt input {
+        width: 18.75em;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        height: 1.875em;
+        box-shadow: none;
+        color: rgb(214, 202, 202);
+        background-color: rgba(30, 30, 48, 0);
+        border-color: rgb(255, 255, 255);
+    }
+    #boton {
+        color: rgb(221, 207, 207);
+        font-weight: bold;
+        width: 21.875em;
+        cursor: pointer;
+        padding: 0.3125em;
+        margin: 0 0.5em 1.875em 0;
+        border: 0.3125em solid rgb(2, 40, 124);
+        background: rgb(2, 40, 124);
+    }
+    .g-recaptcha {
+        margin-left: 0%;
+        padding: 10px;
+    }
+    .msj {
+        padding: 0.4375em;
+        font-family: Arial;
+        resize: none;
+        color: rgb(214, 202, 202);
+        border-color: rgb(222, 222, 238);
+        background-color: rgba(30, 30, 48, 0.11);
+        margin-top: 1.875em;
+    }
+    h4 {
+        font-weight: normal;
+        font-size: 0.75em;
+        font-style: normal;
+        font-family: Arial;
+        padding: 0.625em 0 0 0;
+        color: rgb(214, 202, 202);
+        text-align: left;
+        margin-bottom: 0.0625em;
+        margin-top: 0.625em;
+    }
+    footer {
+        height: 10%;
+        padding: 0.3125em;
+        font-weight: normal;
+        letter-spacing: 0.25em;
+        font-size: 0.6875.em;
+        color: rgb(255, 246, 246);
+        background-color: rgba(27, 46, 71, 0.918);
+        font-family: Arial;
+        text-align: center;
+    }
+    .tcn {
+        padding-top: 6.25em;
+        margin-top: 11.25em;
+        width: 30%;
+        height: 20%;
+        justify-content: center;
+    }
+    .tcn li {
+        border-radius: 0.625em;
+        background-color: rgba(22, 20, 20, 0.349);
+        list-style: none;
+        color: rgb(240, 228, 228);
+        width: 9em;
+        text-align: center;
+    }
+    .tcn div {
+        margin-top: 3%;
+        width: 10%;
+        height: 10%;
+        margin: 1%;
     }
 }
