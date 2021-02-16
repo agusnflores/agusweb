@@ -1,79 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link rel="stylesheet" href="font.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Agustin Flores</title>
-  <link href="estilo.css" rel="stylesheet">
+    <link rel="stylesheet" href="font.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agustin Flores</title>
+    <link href="estilo.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
-  <h1 id="sobremi" class="titulo">Agustin Flores</h1>
-  <h2 class="subt">Desarrollador Web</h2>
-  <div>
-    <aside class="sidebar">
-      <div class="redes">
-          <li class="icon icon-instagram" target="_blank"><a href="instagram.com"></a></li>
-          <li class="icon icon-linkedin" target="_blank"></li>
-          <li class="icon icon-youtube" target="_blank"></li>
-      </div>
-      <nav class="nav">
-        <ul>
-          <li class="active"><a href="#sobremi">Sobre Mi</a></li>
-          <li><a href="#tecno">Tecnologias</a></li>
-          <li><a href="#contacto">Contactame</a></li>
-        </ul>
-      </nav>
-    </aside>
+    <h1 id="sobremi" class="titulo">Agustin Flores</h1>
+    <h2 class="subt">Desarrollador Web</h2>
+    <div>
+        <aside class="sidebar">
+            <div class="redes">
+                <li class="icon icon-instagram" target="_blank">
+                    <a href="http://www.instagram.com"></a>
+                </li>
+                <li class="icon icon-linkedin" target="_blank"></li>
+                <li class="icon icon-youtube" target="_blank"></li>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li class="active"><a href="#sobremi">Sobre Mi</a></li>
+                    <li><a href=".tcn">Tecnologias</a></li>
+                    <li><a href="#contacto">Contactame</a></li>
+                </ul>
+            </nav>
+        </aside>
     </div>
-   <div >
-     <img src="perfil.jpg" class="img2">
-   </div>
-   <div class="bio">
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
-       Molestiae est et consequuntur. Omnis perferendis ullam ut <br>
-       earum quos deleniti. Vero deleniti veritatis doloremque perspiciatis,<br> 
-       nemo exercitationem reprehenderit nam voluptatibus. Animi.</p>
-   </div>
-   <div id="tecno">
-     <li>HTML5</li>
-     <li>CSS</li>
-     <li>Javascript</li>
-   </div>
+    <div class="img">
+        <img src="perfil.jpg" class="img2">
+    </div>
+    <div class="bio">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Molestiae est et consequuntur. Omnis perferendis ullam ut <br> earum quos deleniti. Vero deleniti veritatis doloremque perspiciatis,<br> nemo exercitationem reprehenderit nam voluptatibus.
+            Animi.
+        </p>
+    </div>
 
-   <section class="tcn">
-   <div class="div1"></div>
-   <div class="div2"></div>
-   <div class="div3"></div>
-   <div class="div4"></div>
-   <div class="div5"></div>
-  </div>
-</section>
+    <section class="tcn">
+        <div>
+            <li>HTML5</li>
+            <div id="thtmlC"></div>
+        </div>
+        <div>
+            <li>CSS</li>
+            <div id="tcss"></div>
+        </div>
+        <div>
+            <li>Javascript</li>
+            <div id="tjs"></div>
+        </div>
+        <div>
 
-  <div class="tcn2">
-    <li>JQuery</li>
-    <li>ReactJS</li>
-  </div>
+            <div id="tjquery"></div>
+            <li>JQuery</li>
+        </div>
+        <div>
+            <div id="treact"></div>
+            <li>ReactJS</li>
+        </div>
 
- 
-   <section>
-     <div id="contacto">
-     <form class="form" action="enviar.php" method="post"><div></div>
-      <h4>Nombre</h4>
-      <div class="cajatxt" ><input type="text" name="name" autocomplete="off" size="35"><br /></div>
-      <h4>Email</h4>
-      <div class="cajatxt"> <input type="email" name="mail" autocomplete="off" size="35"><br /></div>
-      <textarea class="msj" name="message" rows="8" cols="40" placeholder="Mensaje"></textarea>
-        	
-        <div class="g-recaptcha" data-sitekey="6LdTnlUaAAAAAHytuSTA03bDOnBSzCkuuyii2KpM"></div>
-          <div>    <input id="boton" type="submit" value="Enviar"></div>
+    </section>
 
-     </form>
-     </div>
-   </section>
+    <section>
+        <div id="contacto">
+            <form class="form" action="enviar.php" method="post">
+                <div class="cajatxt" id="camposACompletar">
+                    <h4>Nombre</h4>
+                    <input type="text" name="name" autocomplete="off" size="35"><br />
+                    <h4>Email</h4>
+                    <input type="email" name="mail" autocomplete="off" size="35"><br />
+                    <textarea class="msj" name="message" rows="8" cols="40" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6LdTnlUaAAAAAHytuSTA03bDOnBSzCkuuyii2KpM"></div>
+                <div>
+                    <input id="boton" type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
 
-<footer>Agustin Flores - 2021. ® Todos los derechos reservados</footer>
-   	<script src="codigo.js"></script>
-   <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
+    <footer>® 2021 Agustin Flores - Todos los derechos reservados</footer>
+    <script src="codigo.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
 </body>
+
 </html>
