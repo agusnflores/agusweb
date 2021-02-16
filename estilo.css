@@ -385,13 +385,12 @@ footer {
         position: relative;
         margin: 3.2em 0;
     }
-}
-
-.nav ul li a {
-    font-family: Arial;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.4em;
-    transition: all ease-out 300ms;
-    color: rgb(234, 226, 238);
+    .nav ul li a {
+        font-family: Arial;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.4em;
+        transition: all ease-out 300ms;
+        color: rgb(234, 226, 238);
+    }
 }
