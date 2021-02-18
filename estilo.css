@@ -11,12 +11,12 @@ body {
     font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 8px;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 25%;
     color: rgb(238, 224, 224);
-    margin-top: 40px;
     padding-top: 50px;
+    border-bottom: 1px white solid;
 }
 
 .subt {
@@ -24,7 +24,7 @@ body {
     font-size: 30px;
     letter-spacing: 4px;
     text-align: center;
-    margin-left: 20%;
+    margin-left: 25%;
     color: rgb(238, 224, 224);
     margin-bottom: 60px;
 }
@@ -91,7 +91,7 @@ body {
     margin: auto;
     display: block;
     margin-bottom: 40px;
-    margin-left: 50%;
+    margin-left: 53%;
     border-radius: 160px;
     border: 3px solid rgb(228, 212, 212);
 }
@@ -103,7 +103,7 @@ body {
 
 .bio {
     text-align: center;
-    margin-left: 20%;
+    margin-left: 25%;
 }
 
 .bio p {
@@ -117,7 +117,7 @@ body {
     height: 470px;
     background-color: rgba(27, 46, 71, 0.966);
     text-align: center;
-    margin-left: 595px;
+    margin-left: 620px;
     margin-top: 300px;
     margin-bottom: 100px;
     box-shadow: 5px 5px 8px rgb(29, 26, 26);
@@ -208,7 +208,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-top: 180px;
-    margin-left: 500px;
+    margin-left: 530px;
     width: 600px;
     height: 400px;
     justify-content: center;
