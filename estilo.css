@@ -1,32 +1,33 @@
 body {
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 13px;
     background-image: url(fondosbb.jpg);
     background-size: cover;
 }
 
 .titulo {
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    padding-bottom: 20px;
+    letter-spacing: 4px;
+    padding-bottom: 5px;
     text-align: center;
     margin-left: 25%;
     color: rgb(238, 224, 224);
-    padding-top: 50px;
-    border-bottom: 1px white solid;
+    padding-top: 10px;
+    margin-bottom: 4px;
 }
 
 .subt {
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     letter-spacing: 4px;
     text-align: center;
     margin-left: 25%;
     color: rgb(238, 224, 224);
     margin-bottom: 60px;
+    border-bottom: 1px white solid;
+    padding-bottom: 17px;
 }
 
 .sidebar {
@@ -66,7 +67,7 @@ body {
 }
 
 .nav ul li a {
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     line-height: 4em;
     text-transform: uppercase;
     text-decoration: none;
@@ -91,7 +92,7 @@ body {
     margin: auto;
     display: block;
     margin-bottom: 40px;
-    margin-left: 53%;
+    margin-left: 52%;
     border-radius: 160px;
     border: 3px solid rgb(228, 212, 212);
 }
@@ -103,11 +104,13 @@ body {
 
 .bio {
     text-align: center;
-    margin-left: 25%;
+    margin-left: 590px;
+    width: 500px;
+    text-align: center;
 }
 
 .bio p {
-    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(241, 231, 231);
 }
 
@@ -198,7 +201,7 @@ footer {
     font-size: 11px;
     color: rgb(255, 246, 246);
     background-color: rgba(27, 46, 71, 0.918);
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-left: 25%;
 }
@@ -207,7 +210,7 @@ footer {
     padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-left: 530px;
     width: 600px;
     height: 400px;
