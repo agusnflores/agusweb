@@ -117,7 +117,7 @@ body {
     height: 470px;
     background-color: rgba(27, 46, 71, 0.966);
     text-align: center;
-    margin-left: 620px;
+    margin-left: 630px;
     margin-top: 300px;
     margin-bottom: 100px;
     box-shadow: 5px 5px 8px rgb(29, 26, 26);
@@ -200,7 +200,7 @@ footer {
     background-color: rgba(27, 46, 71, 0.918);
     font-family: Arial;
     text-align: center;
-    padding-left: 20%;
+    padding-left: 25%;
 }
 
 .tcn {
